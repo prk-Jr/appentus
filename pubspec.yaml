@@ -1,0 +1,35 @@
+name: appentus
+description: APPENTUS test project
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  location: ^4.3.0
+  universe: ^1.1.0-nullsafety
+  file_picker: ^4.0.1
+  shared_preferences: ^2.0.7
+  dio: ^4.0.0
+  flutter_staggered_grid_view: ^0.4.0
+  
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
